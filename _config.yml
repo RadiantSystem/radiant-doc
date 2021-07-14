@@ -1,0 +1,11 @@
+title: Radiant Documentation
+author_url: https://radiantsystem.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "/"
+url: "doc.radiantsd.org"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+yandex_id: 82894972
