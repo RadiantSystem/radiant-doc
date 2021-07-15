@@ -8,3 +8,5 @@ lang-ref: index
 ### User manual
 
 ### Developer manual
+
+- [Unit tests running](/en/testing/unit-tests)
