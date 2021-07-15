@@ -5,8 +5,8 @@ lang-ref: index
 
 ### Administration manual
 
-### User manual
+### Usage manual
 
-### Developer manual
+### Development manual
 
 - [Unit tests running](/en/testing/unit-tests)
