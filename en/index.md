@@ -12,7 +12,7 @@ lang-ref: index
 
 #### Time/Date
 
-- [Date/Time operations](/ru/datetime/datetime-functions)
+- [Date/Time operations](/en/datetime/datetime-functions)
 
 #### Testing
 
