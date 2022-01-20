@@ -4,6 +4,63 @@ lang-ref: packages-api-info
 title: RS4OTRS_API
 ---
 
+### Introduction
+
+RS4OTRS_API package is used for communication with OTRS server.
+
+### HTTP communication
+
+API supports GET and POST HTTP requests, but for security reason you
+should use only POST ones with JSON body (application/json).
+
+### Auth token and permissions
+
+Almost all methods require a special token. It can be taken
+from /auth/login call.
+
+Without a token or with incorrect one you get an error:
+
+```
+{
+    "Response": "ERROR",
+    "Message": "Session invalid. Please log in again."
+}
+```
+
+Some methods are checked for user permissions (Agent groups permissions). For
+such calls there is a field ``Need permissions'' with group permissions list in
+this manual.
+
+### Error response
+
+Except ``Session invalid.'' there is also another common error response:
+
+```
+{
+    "Message": "Please contact the administrator.",
+    "Response": "ERROR"
+}
+```
+
+which says that the problem is non-presumable for such case.
+
+### Request examples
+
+POST request for /auth/login:
+
+```
+curl -s -X POST
+  -H 'Content-Type: application/json' localhost/otrs/api/auth/login
+  -d '{"User":"root@localhost", "Password": "kBHsn6"}'
+```
+
+GET request:
+
+```
+curl -s -X GET
+"localhost/bin/api/auth/login?User=root@localhost&Password=kBHsn6"
+```
+
 ### Methods list
 
 #### /auth
@@ -74,3 +131,11 @@ title: RS4OTRS_API
 
 - [/getUserList](/en/packages/api/methods/users/getUserList)
 - [/getUserPermissions](/en/packages/api/methods/users/getUserPermissions)
+
+### Mobile application part
+
+- [Mobile notifications](/en/packages/api/mobile)
+
+### About
+
+- [Changes](/en/packages/api/changes)
