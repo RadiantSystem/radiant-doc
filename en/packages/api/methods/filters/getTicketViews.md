@@ -24,7 +24,15 @@ Required parameters:
 
 Unrequired parameters:
 
-- QueueID - queue id.
+- QueueID - queue id. When it is set the Screens field also shows on which
+  mobile application screens should be shown State items. The State screen
+  mapping are set for Mobile package's setting:
+
+  - Ticket::Frontend::AgentMobileTicketNote
+  - Ticket::Frontend::AgentMobileNewTicket
+  - Ticket::Frontend::AgentMobileTicketStatus
+  - Ticket::Frontend::AgentMobileTicketClose
+  - Ticket::Frontend::AgentMobileEditTicket
 
 QueueID is used to get the same stricted State list as used for AgentTicketPhone
 page in Web OTRS.
@@ -133,71 +141,24 @@ Successful answer:
             "Default": 0,
             "OnTicketCreateScreen": 0,
             "Name": "closed successful",
-            "Color": "#b3b3b3"
+            "Color": "#b3b3b3",
+            "Screens": {
+                "AgentMobileEditTicket": 1,
+                "AgentMobileNewTicket": 1,
+                "AgentMobileTicketStatus": 1,
+                "AgentMobileTicketNote": 1
+            },
         }, {
             "ID": 3,
             "BackgroundColor": "#ffffff",
             "Default": 0,
             "OnTicketCreateScreen": 0,
             "Name": "closed unsuccessful",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 10,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "closed with workaround",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 9,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "merged",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 1,
-            "BackgroundColor": "#5bb8a5",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "new",
-            "Color": "#ffffff"
-        }, {
-            "ID": 4,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "open",
-            "Color": "#5bb8a5"
-        }, {
-            "ID": 7,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "pending auto close+",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 8,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "pending auto close-",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 6,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "pending reminder",
-            "Color": "#b3b3b3"
-        }, {
-            "ID": 5,
-            "BackgroundColor": "#ffffff",
-            "Default": 0,
-            "OnTicketCreateScreen": 0,
-            "Name": "removed",
-            "Color": "#b3b3b3"
-        }],
+            "Color": "#b3b3b3",
+            "Screens": {}
+        },
+        ...
+        ],
         "Name": "State"
     }, {
         "Items": [{

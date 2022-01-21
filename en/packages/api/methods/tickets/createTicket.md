@@ -42,6 +42,7 @@ Unrequired parameters:
 - Minute - pending minute.
 - Estimated - spent time.
 - LockByOwner - lock by owner (1|0).
+- DynamicFields - a hash with pairs DynamicField name : value.
 
 Successful answer:
 

@@ -100,6 +100,7 @@ curl -s -X GET
 #### /system
 
 - [/getPackageList](/en/packages/api/methods/system/getPackageList)
+- [/getDynamicFieldList](/en/packages/api/methods/system/getDynamicFieldList)
 
 #### /tickets
 

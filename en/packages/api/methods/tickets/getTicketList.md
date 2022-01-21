@@ -55,6 +55,7 @@ Optional parameters:
 - Body - body.
 - Limit - limit.
 - Offset - offset.
+- DynamicFieldsMode - mobile \| all adds DynamicFields field.
 
 Successful answer:
 
@@ -110,7 +111,18 @@ Successful answer:
         "Lock": "unlock",
         "SLAID": null,
         "WatcherCount": 0,
-        "CustomerUserID": null
+        "CustomerUserID": null,
+        "DynamicFields": {
+          "TestMulti": {
+            "Value": null,
+            "Type": "Multiselect",
+            "Screens": {
+              "AgentMobileTicketStatus": "rw"
+            },
+            "Name": "TestMulti"
+          },
+          ...
+        }
     }]
 }
 ```

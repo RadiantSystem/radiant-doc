@@ -46,6 +46,7 @@ Unrequired parameters:
 - Hour - pending hour.
 - Minute - pending minute.
 - Rule - can be ``TicketEdit'' for different algorithms of Owner changing.
+- DynamicFields - a hash with pairs DynamicField name : value.
 
 Successful answer:
 

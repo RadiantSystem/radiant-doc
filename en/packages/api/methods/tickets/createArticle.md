@@ -38,6 +38,7 @@ Unrequired parameters:
 - Day - pending day.
 - Hour - pending hour.
 - Minute - pending minute.
+- DynamicFields - a hash with pairs DynamicField name : value.
 
 Successful answer:
 
