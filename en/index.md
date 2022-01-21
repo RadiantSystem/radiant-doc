@@ -28,3 +28,4 @@ lang-ref: index
 ### Radiant Packages
 
 - [RS4OTRS_API](/en/packages/api/info)
+- [RS4OTRS_Mobile](/en/packages/mobile/info)

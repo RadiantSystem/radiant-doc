@@ -4,9 +4,23 @@ lang-ref: packages-api-info
 title: RS4OTRS_API
 ---
 
-### Introduction
+### About
 
 RS4OTRS_API package is used for communication with OTRS server.
+
+### Installation
+
+- Install the JSON API package version 6.41.0 or later on the OTRS6 server.
+
+- In the zzz_otrs.conf file (documentation link) inside section <Location /otrs>
+  you should write:
+
+```
+RewriteEngine on
+RewriteRule "/api/(\w+)/(\w+)" "/otrs/json.pl?Action=$1&Subaction=$2" [QSA, L]
+```
+
+- Restart Apache.
 
 ### HTTP communication
 
