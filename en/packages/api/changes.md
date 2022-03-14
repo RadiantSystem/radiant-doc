@@ -6,7 +6,16 @@ title: RS4OTRS_API
 
 ## Changes of API
 
-### 6.??.? [??.??.22]
+### 6.44.2 [14.03.22]
+
+- /getUserList: fixed empty string fields to undef.
+
+### 6.44.1 [14.02.22]
+
+- /getArticles, /getTicketList: removed datetime conversion for one datetime
+  format.
+
+### 6.44.0 [28.01.22]
 
 - /getTicketList: for Dropdown DynamicFields Value keeps a value of
   DynamicField pair instead of a key.
