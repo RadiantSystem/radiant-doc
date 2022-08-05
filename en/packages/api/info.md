@@ -17,7 +17,7 @@ RS4OTRS_API package is used for communication with OTRS server.
 
 ```
 RewriteEngine on
-RewriteRule "/api/(\w+)/(\w+)" "/otrs/json.pl?Action=$1&Subaction=$2" [QSA, L]
+RewriteRule "/api/(\w+)/(\w+)" "/otrs/json.pl?Action=$1&Subaction=$2" [QSA,L]
 ```
 
 - Restart Apache.
