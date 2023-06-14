@@ -14,48 +14,55 @@ Need permissions: RO, RW
 
 Required parameters:
 
-- The value of "SessionName" field of /auth/login response - main token.
+| **Name** | **Description** |
+| The value of "SessionName" field of /auth/login response | main token. |
 
 Optional parameters:
 
-- Count - just to get ticket count (1\|0)
-- ViewID - view ID (for filtering)
-- SortBy - field list for sorting (array of names)
-- OrderBy - field list for sorting order (array of names)
-- FullTextSearch - string for searching in Subject, Body, From, To, Cc
-    ('\%' sign is used for matching: ``\%hello\%'' for example).
-- TicketID - ticket id.
-- TicketNumber - ticket number.
-- Title - title.
-- Queues - queue list (array of names).
-- QueueIDs - queue list (array of numbers).
-- Types - type list (array of names).
-- TypeIDs - type list (array of numbers).
-- SmartSort - 1 (see below).
-- States - state list (array of names).
-- StateIDs - state list (array of numbers).
-- StateType - state type: "Open", “Closed”.
-- Priorities - priority list (array of names).
-- PriorityIDs - priority list (array of numbers).
-- Services - service list (array of names).
-- ServiceIDs - service list (array of numbers).
-- SLAs - SLA list (array of names).
-- SLAIDs - SLA list (array of numbers).
-- Locks - lock list (array of names).
-- LockIDs - lock list (array of numbers).
-- OwnerIDs - owner list (array of numbers).
-- ResponsibleIDs - responsible list (array of numbers).
-- WatchUserIDs - watch user list (array of number).
-- CustomerID - customer id.
-- CustomerUserLogin - customer user login.
-- From - from.
-- To - to.
-- Cc - copy.
-- Subject - subject.
-- Body - body.
-- Limit - limit.
-- Offset - offset.
-- DynamicFieldsMode - mobile \| all adds DynamicFields field.
+| **Name**                  | **Description** |
+| **Count**                 | just to get ticket count (1\|0) |
+| **ViewID**                | view ID (for filtering) |
+| **SortBy**                | field list for sorting (array of names) |
+| **OrderBy**               | field list for sorting order (array of names) |
+| **FullTextSearch**        | string for searching in Subject, Body, From, To, Cc ('\%' sign is used for matching: ''\%hello\%'' for example). |
+| **TicketID**              | ticket id. |
+| **TicketNumber**          | ticket number. |
+| **Title**                 | title. |
+| **Queues**                | queue list (array of names). |
+| **QueueIDs**              | queue list (array of numbers). |
+| **Types**                 | type list (array of names). |
+| **TypeIDs**               | type list (array of numbers). |
+| **SmartSort**             | 1 (see below). |
+| **States**                | state list (array of names). |
+| **StateIDs**              | state list (array of numbers). |
+| **StateType**             | state type: "Open", “Closed”. |
+| **Priorities**            | priority list (array of names). |
+| **PriorityIDs**           | priority list (array of numbers). |
+| **Services**              | service list (array of names). |
+| **ServiceIDs**            | service list (array of numbers). |
+| **SLAs**                  | SLA list (array of names). |
+| **SLAIDs**                | SLA list (array of numbers). |
+| **Locks**                 | lock list (array of names). |
+| **LockIDs**               | lock list (array of numbers). |
+| **OwnerIDs**              | owner list (array of numbers). |
+| **ResponsibleIDs**        | responsible list (array of numbers). |
+| **WatchUserIDs**          | watch user list (array of number). |
+| **CustomerID**            | customer id. |
+| **CustomerUserLogin**     | customer user login. |
+| **From**                  | from. |
+| **To**                    | to. |
+| **Cc**                    | copy. |
+| **Subject**               | subject. |
+| **Body**                  | body. |
+| **Limit**                 | limit. |
+| **Offset**                | offset. |
+| **DynamicFieldsMode**     | mobile \| all adds DynamicFields field. |
+| **CreatedNewerMinutes**   | |
+| **CreatedOlderMinutes**   | |
+| **CreatedNewerDate**      | |
+| **CreatedOlderDate**      | |
+| **CreatedNewerDays**      | |
+| **CreatedOlderDays**      | |
 
 Successful answer:
 
