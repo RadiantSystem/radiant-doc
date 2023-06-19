@@ -10,8 +10,9 @@ title: "RS4OTRS_API: customers/getCustomerUser"
 
 Required parameters:
 
-- The value of "SessionName" field of /auth/login response - main token.
-- CustomerUser - customer login.
+| **Name** | **Description** |
+| The value of "SessionName" field of /auth/login response | main token. |
+| CustomerUser | customer login |
 
 Successful answer:
 
@@ -32,7 +33,9 @@ Successful answer:
     "UserPhone": "",
     "UserMobile": "",
     "UserCity": "",
-    "UserCountry": ""
+    "UserCountry": "",
+    ...
+    "DynamicField_ABC": "FFF"  # added in Config.pm in CustomerUser Map section
 }
 ```
 
