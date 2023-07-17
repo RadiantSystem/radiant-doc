@@ -5,7 +5,7 @@ layout: default
 <div class="home">
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {%- if site.posts.size < 0 -%}
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <h2 class="post-list-heading">{{ site.data.translations.list_title[page.lang] }}</h2>
     <ul class="post-list">
