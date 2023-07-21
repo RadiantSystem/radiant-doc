@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: home
-lang-ref: dict
+lang-ref: terms
 ---
 
 # Понятийный русско-английский словарь
