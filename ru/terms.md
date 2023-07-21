@@ -12,7 +12,7 @@ lang-ref: dict
 - [Пропуск](/ru/term/password) (password)
 - [Опознание](/ru/term/identification) (identification)
 - [Удостоверение](/ru/term/authentication) (authentication)
-- [Двухшаговое удостоверение](/ru/term/two-factor-authentication)
+- [Двухшаговое удостоверение](/ru/term/two-factor-authentication) (two-factor authentication)
 - [Подтягивание](/ru/term/synchronization) (synchronization)
 - [Одобрение](/ru/term/authorization) (authorization)
 - Ключ (token)

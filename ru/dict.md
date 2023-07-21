@@ -12,7 +12,7 @@ lang-ref: dict
 
 ## Д
 
-- [Двухшаговое удостоверение](/ru/term/two-factor-authentication)
+- [Двухшаговое удостоверение](/ru/term/two-factor-authentication) (two-factor authentication)
 - [Доработка](/ru/term/custom) (custom)
 
 ## З
