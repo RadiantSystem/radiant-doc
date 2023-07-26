@@ -19,6 +19,10 @@ lang-ref: dict
 
 - [Заявка](/ru/term/ticket) (ticket)
 
+## И
+
+- [Изменяемое поле](/ru/term/dynamic-field) (dynamic field)
+
 ## К
 
 - Ключ (token)
@@ -41,7 +45,7 @@ lang-ref: dict
 ## Р
 
 - Работник (agent, user)
-- Расширение (package, addon, extension, plugin)
+- [Расширение](/ru/term/package) (package, addon, extension, plugin)
 
 ## С
 

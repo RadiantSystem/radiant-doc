@@ -21,6 +21,10 @@ lang-ref: terms
 
 - [Заявка](/ru/term/ticket) (ticket)
 
+## Изменяемые поля
+
+- [Изменяемое поле](/ru/term/dynamic-field) (dynamic field)
+
 ## Письма
 
 - Письмо (mail, email)
@@ -33,7 +37,7 @@ lang-ref: terms
 ## Расширения
 
 - [Доработка](/ru/term/custom) (custom)
-- Расширение (package, addon, extension, plugin)
+- [Расширение](/ru/term/package) (package, addon, extension, plugin)
 
 ## Приложения
 
