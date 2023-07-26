@@ -46,8 +46,9 @@ lang-ref: terms
 
 ## Пользователи
 
-- Работник (agent, user)
+- [Отдел](/ru/term/group) (group)
 - Пользователь (customer)
+- Работник (agent, user)
 
 ## Исходники
 

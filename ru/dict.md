@@ -32,6 +32,7 @@ lang-ref: dict
 - [Обозреватель](/ru/term/browser) (browser)
 - [Одобрение](/ru/term/authorization) (authorization)
 - [Опознание](/ru/term/identification) (identification)
+- [Отдел](/ru/term/group) (group)
 
 ## П
 
