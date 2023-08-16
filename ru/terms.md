@@ -6,6 +6,10 @@ lang-ref: terms
 
 # Понятийный русско-английский словарь
 
+## Безопасность
+
+- [Безопасность](/ru/term/security) (security)
+
 ## Доступа
 
 - [Взаимодействие](/ru/term/session) (session)
@@ -58,3 +62,13 @@ lang-ref: terms
 
 - Указание (command)
 - Щелчок (click)
+
+## Установка и настройка
+
+- [Установка](/ru/term/installation) (installation)
+
+## Разработка
+
+- [Доработка](/ru/term/custom) (custom)
+- [Описыватель](/ru/term/writer) (writer)
+- [Постановщик](/ru/term/analyst) (analyst)

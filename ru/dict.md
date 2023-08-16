@@ -6,6 +6,10 @@ lang-ref: dict
 
 # Русско-английский словарь
 
+## Безопасность
+
+- [Безопасность](/ru/term/security) (security)
+
 ## В
 
 - [Взаимодействие](/ru/term/session) (session)
@@ -31,12 +35,14 @@ lang-ref: dict
 
 - [Обозреватель](/ru/term/browser) (browser)
 - [Одобрение](/ru/term/authorization) (authorization)
+- [Описыватель](/ru/term/writer) (writer)
 - [Опознание](/ru/term/identification) (identification)
 - [Отдел](/ru/term/group) (group)
 
 ## П
 
 - Письмо (mail, email)
+- [Постановщик](/ru/term/analyst) (analyst)
 - Приложение (application)
 - Предписание (program)
 - [Пропуск](/ru/term/password) (password)
@@ -56,6 +62,7 @@ lang-ref: dict
 
 - [Удостоверение](/ru/term/authentication) (authentication)
 - Указание (command)
+- [Установка](/ru/term/installation) (installation)
 
 ## Щ
 
