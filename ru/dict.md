@@ -13,6 +13,7 @@ lang-ref: dict
 ## В
 
 - [Взаимодействие](/ru/term/session) (session)
+- [Вложение](/ru/term/attachment) (attachment)
 
 ## Д
 
@@ -45,13 +46,15 @@ lang-ref: dict
 - [Постановщик](/ru/term/analyst) (analyst)
 - Приложение (application)
 - Предписание (program)
+- [Проверка](/ru/term/test) (test)
+- [Производительность](/ru/term/performance) (performance)
 - [Пропуск](/ru/term/password) (password)
 - [Подтягивание](/ru/term/synchronization) (synchronization)
 - Пользователь (customer)
 
 ## Р
 
-- Работник (agent, user)
+- [Работник](/ru/term/agent) (agent, user)
 - [Расширение](/ru/term/package) (package, addon, extension, plugin)
 
 ## С

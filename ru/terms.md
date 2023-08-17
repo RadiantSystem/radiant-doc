@@ -23,6 +23,7 @@ lang-ref: terms
 
 ## Заявки
 
+- [Вложение](/ru/term/attachment) (attachment)
 - [Заявка](/ru/term/ticket) (ticket)
 
 ## Изменяемые поля
@@ -52,7 +53,7 @@ lang-ref: terms
 
 - [Отдел](/ru/term/group) (group)
 - Пользователь (customer)
-- Работник (agent, user)
+- [Работник](/ru/term/agent) (agent, user)
 
 ## Исходники
 
@@ -66,9 +67,14 @@ lang-ref: terms
 ## Установка и настройка
 
 - [Установка](/ru/term/installation) (installation)
+- [Производительность](/ru/term/performance) (performance)
 
 ## Разработка
 
 - [Доработка](/ru/term/custom) (custom)
 - [Описыватель](/ru/term/writer) (writer)
 - [Постановщик](/ru/term/analyst) (analyst)
+- [Проверка](/ru/term/test) (test)
+
+- [Управляющий сущностями](/ru/internal/object-manager)
+- [Работа со временем и датами](/ru/datetime/datetime-functions)

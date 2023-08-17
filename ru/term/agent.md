@@ -1,10 +1,12 @@
 ---
 lang: ru
-lang-ref: user 
 layout: home
+lang-ref: term-agent
 ---
 
-## Добавить пользователя в группу
+# Работник
+
+## Добавить пользователя в отдел
 
 ```bash
 ./bin/Console.pl Admin::Group::UserLink \
